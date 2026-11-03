@@ -1,0 +1,46 @@
+name: crypto_wallet_app
+description: A modern Flutter crypto trading (buy/sell at your own quoted rates) and digital wallet app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  characters: ^1.3.0
+
+  # State management
+  provider: ^6.1.2
+
+  # UI / Fonts
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  qr_flutter: ^4.1.0
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.0
+
+  # Firebase (wired via lib/services/*_repository.dart interfaces;
+  # mock implementations are active by default — see README.md)
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.2.1
+  firebase_storage: ^12.1.3
+  firebase_messaging: ^15.0.4
+
+  # Security
+  local_auth: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  firebase_auth_mocks: ^0.14.1
+
+flutter:
+  uses-material-design: true

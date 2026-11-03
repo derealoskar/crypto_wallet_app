@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "112723900319",
+    "project_id": "cryptowalletapp-2d1f3",
+    "storage_bucket": "cryptowalletapp-2d1f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112723900319:android:7dbfffe4d74dd51bffefaa",
+        "android_client_info": {
+          "package_name": "com.example.crypto_wallet_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB19Oz7cTsv8ku4gkQEiToZTWeNeYH4n4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
